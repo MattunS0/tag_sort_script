@@ -9,7 +9,7 @@ from utils.history_manager import make_JSONfile
 ''' 初期設定 '''
 
 def init():
-    INVALID_CHARS = r'[<>:"/\\|?*\x00-\x1F]'
+    INVALID_CHARS = r'[<>"/|?*\x00-\x1F]'
 
     try:
         BASEPATH = input("ベースとなるPathを入力してください>>>")
